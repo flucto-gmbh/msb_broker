@@ -5,12 +5,10 @@ import json
 import sys
 
 try:
-    from config import init
+    from broker_config import init
 except ImportError as e:
     print(f'failed to import init funtion: {e}')
     sys.exit(-1)
-
-
 
 def main():
 
